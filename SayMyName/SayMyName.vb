@@ -14,7 +14,8 @@ Module SayMyName
         'set variable to the users input
         userName = Console.ReadLine()
         'Reply to user with phrase and name
-        Console.WriteLine("Hello, " & userName & " Have a good one")
+        Console.WriteLine("Hello, " & userName & " Have a good day")
+        'ReadLine to view reply
         Console.ReadLine()
     End Sub
 End Module
