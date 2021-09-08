@@ -14,7 +14,15 @@ Module SayMyName
         'set variable to the users input
         userName = Console.ReadLine()
         'Reply to user with phrase and name
-        Console.WriteLine("Hello, " & userName & " Have a good day")
+        If userName = "Sebastian" Then
+            Console.WriteLine("Hello creator")
+        ElseIf userName = "Emily" Then
+            Console.WriteLine("Emily who?")
+        ElseIf userName = "Joe" Then
+            Console.WriteLine("Joe Sup")
+        End If
+
+        'Console.WriteLine("Hello, " & userName & " Have a good day")
         'ReadLine to view reply
         Console.ReadLine()
     End Sub
