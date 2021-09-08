@@ -2,7 +2,7 @@
 'RCET0265
 'Fall 2021
 'Say My Name... Again
-'https://github.com/SebastianSotoMk4/SayMyName.git
+'https://github.com/SebastianSotoMk4/SayMyName/tree/SayMyNameAgain/SayMyName
 Option Strict On
 Option Explicit On
 Module SayMyNameAgain
