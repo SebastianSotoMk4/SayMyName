@@ -24,7 +24,7 @@ Module SayMyNameAgain
             variable = True
         End If
         If variable = False Then                                'If an unrecognized name is entered
-            Console.WriteLine("Name not reconized.")            'a message will be displayed.
+            Console.WriteLine("Name not recognized.")            'a message will be displayed.
         End If
         'ReadLine to view reply
         Console.ReadLine()
