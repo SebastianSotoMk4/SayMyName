@@ -7,22 +7,25 @@ Option Strict On
 Option Explicit On
 Module SayMyName
     Sub Main()
-        'Create variable
-        Dim userName As String
-        'Ask a question with console
-        Console.WriteLine("Oh hello , I did'nt see you there. What is your name?")
-        'set variable to the users input
-        userName = Console.ReadLine()
-        'Reply to user with phrase and name
-        If userName = "Sebastian" Then
-            Console.WriteLine("Hello creator")
-        ElseIf userName = "Emily" Then
-            Console.WriteLine("Emily who?")
-        ElseIf userName = "Joe" Then
-            Console.WriteLine("Joe Sup")
-        End If
+        Dim userName As String 
+        Dim variable As Boolean
 
-        'Console.WriteLine("Hello, " & userName & " Have a good day")
+        Console.WriteLine("Oh hello , I did'nt see you there. What is your name?") 'Ask a question with console
+        userName = Console.ReadLine() 'set variable to the users input
+
+        If userName = "Sebastian" Or userName = "sebastian" Then 'If the name is reconized 
+            Console.WriteLine("Hey there, freshman!")            'then a message will be displayed
+            variable = True
+        ElseIf userName = "Emily" Or userName = "emily" Then     'Also names can be entered uppper or lowercase.
+            Console.WriteLine("Put that cookie down!")
+            variable = True
+        ElseIf userName = "Joe" Or userName = "joe" Then
+            Console.WriteLine("This call may be recorded for training purposes.")
+            variable = True
+        End If
+        If variable = False Then                                'If an unreconized name is entered
+            Console.WriteLine("Name not reconized")             'a message will be displayed.
+        End If
         'ReadLine to view reply
         Console.ReadLine()
     End Sub
