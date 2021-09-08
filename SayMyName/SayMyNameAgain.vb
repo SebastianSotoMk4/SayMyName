@@ -17,10 +17,10 @@ Module SayMyNameAgain
             Console.WriteLine("Hey there, freshman!")            'then a message will be displayed
             variable = True
         ElseIf userName = "Emily" Or userName = "emily" Then     'Also names can be entered uppper or lowercase.
-            Console.WriteLine("Put that cookie down!")
+            Console.WriteLine("Hello Emily!")
             variable = True
         ElseIf userName = "Joe" Or userName = "joe" Then
-            Console.WriteLine("...This call may be recorded for training purposes.")
+            Console.WriteLine("Hello Joe!")
             variable = True
         End If
         If variable = False Then                                'If an unrecognized name is entered
