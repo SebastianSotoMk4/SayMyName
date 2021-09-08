@@ -1,13 +1,13 @@
 ﻿'Sebastian Soto
 'RCET0265
 'Fall 2021
-'Say My Name
+'Say My Name... Again
 'https://github.com/SebastianSotoMk4/SayMyName.git
 Option Strict On
 Option Explicit On
-Module SayMyName
+Module SayMyNameAgain
     Sub Main()
-        Dim userName As String 
+        Dim userName As String
         Dim variable As Boolean
 
         Console.WriteLine("Oh hello , I did'nt see you there. What is your name?") 'Ask a question with console
